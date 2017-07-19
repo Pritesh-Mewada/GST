@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"
+    android:elevation="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/item"
+                android:text="Soap"
+
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="22sp"
+                android:layout_marginLeft="40dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_rate"
+                android:text="28%"
+                android:layout_alignParentEnd="true"
+                android:textSize="28sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_description"
+            android:text="HelloHelloHelloHelloHelloHelloHello"
+            android:paddingLeft="40dp"
+            android:paddingBottom="5dp"
+            />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
